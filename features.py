@@ -1,3 +1,6 @@
+import nltk
+nltk.download('stopwords')
+
 from fuzzywuzzy import fuzz
 from nltk.corpus import stopwords
 
