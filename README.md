@@ -6,7 +6,7 @@ This project aims to detect whether two given questions are the same or differen
 The goal of this project is to determine if two questions are semantically equivalent. This is achieved by training a machine learning model on the Quora Duplicate Question Pair dataset. The model is hosted using Streamlit, providing an interactive web interface for users to test the model with their own question pairs.
 
 ## Livedemo
-You can check out the live hosted version of the site [here](https://sudarshanpoudel-duplicate-question-detection-app-i6yghp.streamlit.app/).
+You can check out the live hosted version of the site [here](https://sudarshanpoudel-duplicate-question-detection-app-i6yghp.streamlit.app/).<br>
 or simply open notebook to test it in colab [here](https://colab.research.google.com/github/SudarshanPoudel/Duplicate_question_detection/blob/main/notebook/notebook.ipynb).
 
 ## Installation
