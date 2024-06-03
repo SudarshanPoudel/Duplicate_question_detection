@@ -26,7 +26,7 @@ def get_features(text1, text2):
     # No of common words
     set1 = set(text1.split())
     set2 = set(text2.split())
-    common_word_ratio =  len(set1 & set2) / (word_len1 + word_len2)
+    common_word_ratio =  len(set1 & set2) / (word_len1 + word_len2 + 0.0000001)
 
     #First and last words
     f_word_same = 0
