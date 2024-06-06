@@ -10,7 +10,7 @@ st.text("'Quora - Duplicate question detection'")
 qn1 = st.text_input('Enter first question')
 qn2 = st.text_input('Enter second question')
 
-if st.button('Checl', type="primary"):
+if st.button('Check', type="primary"):
     if(is_duplicate(qn1, qn2)):
         st.markdown('### Questions are duplicate' )
     else:
